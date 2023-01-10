@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "token-transformer": "^0.0.29"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "style-dictionary": "^3.7.2"
+  },
+  "scripts": {
+    "build": "npx token-transformer tokens/tokens.json output.json && npx style-dictionary build"
+  }
+}
