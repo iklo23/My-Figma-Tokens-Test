@@ -1,3 +1,21 @@
+
+
+# Changes to npm script set up:
+
+This example code is bare-bones to show you what this framework can do. If you have the style-dictionary module installed globally, you can `cd` into this directory and run:
+```bash
+style-dictionary build
+```
+
+You should see something like this output:
+```
+Copying starter files...
+
+Source style dictionary starter files created!
+
+Running `style-dictionary build` for the first time to generate build artifacts.
+
+
 # Basic Style Dictionary
 
 This example code is bare-bones to show you what this framework can do. If you have the style-dictionary module installed globally, you can `cd` into this directory and run:
