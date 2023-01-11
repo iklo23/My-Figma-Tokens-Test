@@ -1,19 +1,4 @@
-
-
-# Changes to npm script set up:
-
-This example code is bare-bones to show you what this framework can do. If you have the style-dictionary module installed globally, you can `cd` into this directory and run:
-```bash
-style-dictionary build
-```
-
-You should see something like this output:
-```
-Copying starter files...
-
-Source style dictionary starter files created!
-
-Running `style-dictionary build` for the first time to generate build artifacts.
+Changes to npm script set up:
 
 
 # Basic Style Dictionary
@@ -30,6 +15,27 @@ Copying starter files...
 Source style dictionary starter files created!
 
 Running `style-dictionary build` for the first time to generate build artifacts.
+
+
+# Changes to npm script set up:
+
+npm pkg set scripts.build="npx token-transformer tokens.json output.json && npx style-dictionary build"
+
+npm install husky
+
+npx husky install
+
+npm install husky -D
+
+
+npx token-transformer tokens.json output.json core,theme/light core
+
+npx token-transformer tokens.json output.json core,theme/dark core
+
+
+npx token-transformer tokens.json tokens/light.json core,theme,light core
+
+npx token-transformer tokens.json tokens/dark.json core,theme,dark core
 
 
 scss
