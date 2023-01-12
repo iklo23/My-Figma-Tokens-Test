@@ -7,6 +7,6 @@
     "style-dictionary": "^3.7.2"
   },
   "scripts": {
-    "build": "npx token-transformer tokens/tokens.json output.json && npx style-dictionary build"
+    "build": "npx token-transformer tokens.json output.json && npx style-dictionary build"
   }
 }

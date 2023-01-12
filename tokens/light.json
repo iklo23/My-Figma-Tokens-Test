@@ -1,0 +1,319 @@
+{
+  "theme": {
+    "bg": {
+      "primary": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "#F5F5F5",
+        "type": "color"
+      }
+    },
+    "surface": {
+      "primary": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "#E5E5E5",
+        "type": "color"
+      }
+    },
+    "fg": {
+      "primary": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "#646464",
+        "type": "color"
+      },
+      "on-accent": {
+        "value": "#ffffff",
+        "type": "color"
+      }
+    },
+    "accent": {
+      "primary": {
+        "value": "#0050B3",
+        "type": "color"
+      },
+      "success": {
+        "value": "#01892E",
+        "type": "color"
+      },
+      "error": {
+        "value": "#D32F2F",
+        "type": "color"
+      },
+      "warning": {
+        "value": "#FCC126",
+        "type": "color"
+      },
+      "brand-red": {
+        "value": "#E81C30",
+        "type": "color"
+      }
+    },
+    "border": {
+      "primary": {
+        "value": "#CCCCCC",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "#E5E5E5",
+        "type": "color"
+      }
+    },
+    "bars": {
+      "nav": {
+        "background-color": {
+          "value": "#fffffff0",
+          "type": "color"
+        }
+      },
+      "tab": {
+        "background-color": {
+          "value": "#f5f5f5f5",
+          "type": "color"
+        }
+      }
+    },
+    "toggle": {
+      "background-color": {
+        "default": {
+          "value": "#E5E5E5",
+          "type": "color"
+        },
+        "active": {
+          "value": "#0050B3",
+          "type": "color"
+        }
+      },
+      "knob": {
+        "value": "#ffffff",
+        "type": "color"
+      }
+    },
+    "button": {
+      "primary": {
+        "default": {
+          "background-color": {
+            "value": "#0050B3",
+            "type": "color"
+          },
+          "text-color": {
+            "value": "#ffffff",
+            "type": "color"
+          }
+        },
+        "pressed": {
+          "background-color": {
+            "value": "#26539B",
+            "type": "color"
+          },
+          "text-color": {
+            "value": "#ffffff",
+            "type": "color"
+          }
+        }
+      },
+      "outline": {
+        "default": {
+          "background-color": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "background-outline": {
+            "value": "#646464",
+            "type": "color"
+          },
+          "text-color": {
+            "value": "#000000",
+            "type": "color"
+          }
+        },
+        "pressed": {
+          "background-color": {
+            "value": "#D7EFFA",
+            "type": "color"
+          },
+          "background-outline": {
+            "value": "#646464",
+            "type": "color"
+          },
+          "text-color": {
+            "value": "#000000",
+            "type": "color"
+          }
+        }
+      },
+      "disabled": {
+        "default": {
+          "background-color": {
+            "value": "#CCCCCC",
+            "type": "color"
+          },
+          "text-color": {
+            "value": "#000000",
+            "type": "color"
+          }
+        },
+        "pressed": {
+          "background-color": {
+            "value": "#646464",
+            "type": "color"
+          },
+          "text-color": {
+            "value": "#000000",
+            "type": "color"
+          }
+        }
+      },
+      "destructive": {
+        "default": {
+          "background-color": {
+            "value": "#D32F2F",
+            "type": "color"
+          },
+          "text-color": {
+            "value": "#ffffff",
+            "type": "color"
+          }
+        },
+        "pressed": {
+          "background-color": {
+            "value": "#751614",
+            "type": "color"
+          },
+          "text-color": {
+            "value": "#ffffff",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "toast": {
+      "error": {
+        "background-color": {
+          "value": "#D32F2F",
+          "type": "color"
+        },
+        "text-color": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "icon-color": {
+          "value": "#ffffff",
+          "type": "color"
+        }
+      },
+      "warning": {
+        "background-color": {
+          "value": "#FCC126",
+          "type": "color"
+        },
+        "text-color": {
+          "value": "#000000",
+          "type": "color"
+        },
+        "icon-color": {
+          "value": "#000000",
+          "type": "color"
+        }
+      },
+      "success": {
+        "background-color": {
+          "value": "#01892E",
+          "type": "color"
+        },
+        "text-color": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "icon-color": {
+          "value": "#ffffff",
+          "type": "color"
+        }
+      },
+      "info": {
+        "background-color": {
+          "value": "#0050B3",
+          "type": "color"
+        },
+        "text-color": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "icon-color": {
+          "value": "#ffffff",
+          "type": "color"
+        }
+      }
+    },
+    "card": {
+      "background-color": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "background-outline": {
+        "value": "#CCCCCC",
+        "type": "color"
+      }
+    }
+  },
+  "boxShadow": {
+    "toggle-knob": {
+      "value": [
+        {
+          "x": 0,
+          "y": 3,
+          "blur": 8,
+          "spread": 0,
+          "color": "#00000026",
+          "type": "dropShadow"
+        },
+        {
+          "x": 0,
+          "y": 3,
+          "blur": 1,
+          "spread": 0,
+          "color": "#0000000f",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "card": {
+      "value": [
+        {
+          "x": 0,
+          "y": 2,
+          "blur": 12,
+          "spread": 0,
+          "color": "#0000001a",
+          "type": "dropShadow"
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "blur": 25,
+          "spread": 0,
+          "color": "#00000008",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow"
+    }
+  },
+  "border": {
+    "default": {
+      "value": {
+        "color": "#CCCCCC",
+        "width": "1px"
+      },
+      "type": "border"
+    }
+  }
+}
