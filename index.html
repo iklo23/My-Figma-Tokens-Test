@@ -4,21 +4,46 @@
         <link rel="stylesheet" href="build/css/_variables.css">
     </head>
 <body>
-    
+
 <style> 
+
     body {
         background-color: var(--theme-bg-default);
+        text-align: center;
     }
     
     button { 
         background-color: var(--theme-button-primary-default-background-color); 
         border: none;
-        border-radius: var(--border-radius-24);
-        height: 32px;
-        padding: 32px;
+        border-radius: 24px;
+        height: auto;
+        padding: 16px;
+        margin-top: 24px;
         color: var(--theme-button-primary-pressed-text-color) 
-        } 
+        
+    }
+    
+    .image {
+    background-color: var(--theme-surface-secondary);
+        height: 300px;
+        width: 300px;
+        border-radius: 8px;
+        margin: 0 auto;
+    }
+
+    .nav {
+    background-color: var(--theme-accent-warning);
+        height: 50px;
+        width: 300px;
+        border-radius: 8px;
+        margin: 0 auto;
+        margin-bottom: 24px;
+    }
+
+    
 </style>
-<button>Hello</button>
+<div class="nav"></div>
+<div class="image"></div>
+<button>Button</button>
 </body>
 </html>

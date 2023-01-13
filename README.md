@@ -37,6 +37,8 @@ npx token-transformer tokens.json tokens/light.json core,theme,light core
 
 npx token-transformer tokens.json tokens/dark.json core,theme,dark core
 
+npx token-transformer tokens.json tokens/core.json core theme,light
+
 
 scss
 ✔︎  build/scss/_variables.scss
