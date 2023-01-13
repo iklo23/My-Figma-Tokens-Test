@@ -7,6 +7,6 @@
     "style-dictionary": "^3.7.2"
   },
   "scripts": {
-    "build": "npx token-transformer tokens.json tokens/light.json core,theme,light core && npx token-transformer tokens.json tokens/dark.json core,theme,dark core &&  && npx style-dictionary build"
+    "build": "npx token-transformer tokens.json tokens/light.json core,theme,light core && npx token-transformer tokens.json tokens/dark.json core,theme,dark core && npx style-dictionary build"
   }
 }

@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Fri, 13 Jan 2023 13:30:02 GMT
+// Generated on Fri, 13 Jan 2023 14:12:52 GMT
 
 
 import UIKit
@@ -12,55 +12,55 @@ import UIKit
 internal struct StyleDictionaryStruct {
     internal static let boxShadowCard = [object Object],[object Object]
     internal static let boxShadowToggleKnob = [object Object],[object Object]
-    internal static let themeAccentBrandRed = #E81C30
-    internal static let themeAccentError = #D32F2F
-    internal static let themeAccentPrimary = #0050B3
-    internal static let themeAccentSuccess = #01892E
-    internal static let themeAccentWarning = #FCC126
-    internal static let themeBarsNavBackgroundColor = #fffffff0
-    internal static let themeBarsTabBackgroundColor = #f5f5f5f5
-    internal static let themeBgPrimary = #D7EFFA
-    internal static let themeBgSecondary = #F5F5F5
-    internal static let themeBorderPrimary = #CCCCCC
-    internal static let themeBorderSecondary = #E5E5E5
-    internal static let themeButtonDestructiveDefaultBackgroundColor = #D32F2F
-    internal static let themeButtonDestructiveDefaultTextColor = #ffffff
+    internal static let themeAccentBrandRed = #e83c47
+    internal static let themeAccentError = #FB8383
+    internal static let themeAccentPrimary = #83B9FB
+    internal static let themeAccentSuccess = #83FBAB
+    internal static let themeAccentWarning = #FBD983
+    internal static let themeBarsNavBackgroundColor = #121212f0
+    internal static let themeBarsTabBackgroundColor = #252525f5
+    internal static let themeBgPrimary = #121212
+    internal static let themeBgSecondary = #121212
+    internal static let themeBorderPrimary = #646464
+    internal static let themeBorderSecondary = #444444
+    internal static let themeButtonDestructiveDefaultBackgroundColor = #FB8383
+    internal static let themeButtonDestructiveDefaultTextColor = #121212
     internal static let themeButtonDestructivePressedBackgroundColor = #751614
-    internal static let themeButtonDestructivePressedTextColor = #ffffff
+    internal static let themeButtonDestructivePressedTextColor = #121212
     internal static let themeButtonDisabledDefaultBackgroundColor = #CCCCCC
-    internal static let themeButtonDisabledDefaultTextColor = #202020
-    internal static let themeButtonDisabledPressedBackgroundColor = #646464
+    internal static let themeButtonDisabledDefaultTextColor = #F5F5F5
+    internal static let themeButtonDisabledPressedBackgroundColor = #CCCCCC
     internal static let themeButtonDisabledPressedTextColor = #202020
-    internal static let themeButtonOutlineDefaultBackgroundColor = #ffffff
-    internal static let themeButtonOutlineDefaultBackgroundOutline = #646464
-    internal static let themeButtonOutlineDefaultTextColor = #202020
+    internal static let themeButtonOutlineDefaultBackgroundColor = #121212
+    internal static let themeButtonOutlineDefaultBackgroundOutline = #CCCCCC
+    internal static let themeButtonOutlineDefaultTextColor = #F5F5F5
     internal static let themeButtonOutlinePressedBackgroundColor = #D7EFFA
-    internal static let themeButtonOutlinePressedBackgroundOutline = #646464
-    internal static let themeButtonOutlinePressedTextColor = #202020
-    internal static let themeButtonPrimaryDefaultBackgroundColor = #0050B3
-    internal static let themeButtonPrimaryDefaultTextColor = #ffffff
-    internal static let themeButtonPrimaryPressedBackgroundColor = #26539B
-    internal static let themeButtonPrimaryPressedTextColor = #ffffff
-    internal static let themeCardBackgroundColor = #D7EFFA
-    internal static let themeCardBackgroundOutline = #CCCCCC
-    internal static let themeFgOnAccent = #ffffff
-    internal static let themeFgPrimary = #202020
-    internal static let themeFgSecondary = #646464
-    internal static let themeSurfacePrimary = #ffffff
-    internal static let themeSurfaceSecondary = #E5E5E5
-    internal static let themeToastErrorBackgroundColor = #D32F2F
-    internal static let themeToastErrorIconColor = #ffffff
-    internal static let themeToastErrorTextColor = #ffffff
-    internal static let themeToastInfoBackgroundColor = #0050B3
-    internal static let themeToastInfoIconColor = #ffffff
-    internal static let themeToastInfoTextColor = #ffffff
-    internal static let themeToastSuccessBackgroundColor = #01892E
-    internal static let themeToastSuccessIconColor = #ffffff
-    internal static let themeToastSuccessTextColor = #ffffff
-    internal static let themeToastWarningBackgroundColor = #FCC126
-    internal static let themeToastWarningIconColor = #202020
-    internal static let themeToastWarningTextColor = #202020
-    internal static let themeToggleBackgroundColorActive = #0050B3
-    internal static let themeToggleBackgroundColorDefault = #E5E5E5
+    internal static let themeButtonOutlinePressedBackgroundOutline = #CCCCCC
+    internal static let themeButtonOutlinePressedTextColor = #F5F5F5
+    internal static let themeButtonPrimaryDefaultBackgroundColor = #83B9FB
+    internal static let themeButtonPrimaryDefaultTextColor = #121212
+    internal static let themeButtonPrimaryPressedBackgroundColor = #A8CDFA
+    internal static let themeButtonPrimaryPressedTextColor = #121212
+    internal static let themeCardBackgroundColor = #121212
+    internal static let themeCardBackgroundOutline = #646464
+    internal static let themeFgOnAccent = #121212
+    internal static let themeFgPrimary = #F5F5F5
+    internal static let themeFgSecondary = #CCCCCC
+    internal static let themeSurfacePrimary = #343434
+    internal static let themeSurfaceSecondary = #343434
+    internal static let themeToastErrorBackgroundColor = #FB8383
+    internal static let themeToastErrorIconColor = #121212
+    internal static let themeToastErrorTextColor = #121212
+    internal static let themeToastInfoBackgroundColor = #83B9FB
+    internal static let themeToastInfoIconColor = #121212
+    internal static let themeToastInfoTextColor = #121212
+    internal static let themeToastSuccessBackgroundColor = #83FBAB
+    internal static let themeToastSuccessIconColor = #121212
+    internal static let themeToastSuccessTextColor = #121212
+    internal static let themeToastWarningBackgroundColor = #FBD983
+    internal static let themeToastWarningIconColor = #121212
+    internal static let themeToastWarningTextColor = #121212
+    internal static let themeToggleBackgroundColorActive = #83B9FB
+    internal static let themeToggleBackgroundColorDefault = #343434
     internal static let themeToggleKnob = #ffffff
 }
