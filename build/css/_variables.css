@@ -1,14 +1,14 @@
 /**
  * Do not edit directly
- * Generated on Fri, 13 Jan 2023 13:24:30 GMT
+ * Generated on Fri, 13 Jan 2023 13:30:02 GMT
  */
 
 :root {
-  --theme-bg-primary: #ffffff;
+  --theme-bg-primary: #D7EFFA;
   --theme-bg-secondary: #F5F5F5;
   --theme-surface-primary: #ffffff;
   --theme-surface-secondary: #E5E5E5;
-  --theme-fg-primary: #000000;
+  --theme-fg-primary: #202020;
   --theme-fg-secondary: #646464;
   --theme-fg-on-accent: #ffffff;
   --theme-accent-primary: #0050B3;
@@ -29,14 +29,14 @@
   --theme-button-primary-pressed-text-color: #ffffff;
   --theme-button-outline-default-background-color: #ffffff;
   --theme-button-outline-default-background-outline: #646464;
-  --theme-button-outline-default-text-color: #000000;
+  --theme-button-outline-default-text-color: #202020;
   --theme-button-outline-pressed-background-color: #D7EFFA;
   --theme-button-outline-pressed-background-outline: #646464;
-  --theme-button-outline-pressed-text-color: #000000;
+  --theme-button-outline-pressed-text-color: #202020;
   --theme-button-disabled-default-background-color: #CCCCCC;
-  --theme-button-disabled-default-text-color: #000000;
+  --theme-button-disabled-default-text-color: #202020;
   --theme-button-disabled-pressed-background-color: #646464;
-  --theme-button-disabled-pressed-text-color: #000000;
+  --theme-button-disabled-pressed-text-color: #202020;
   --theme-button-destructive-default-background-color: #D32F2F;
   --theme-button-destructive-default-text-color: #ffffff;
   --theme-button-destructive-pressed-background-color: #751614;
@@ -45,17 +45,16 @@
   --theme-toast-error-text-color: #ffffff;
   --theme-toast-error-icon-color: #ffffff;
   --theme-toast-warning-background-color: #FCC126;
-  --theme-toast-warning-text-color: #000000;
-  --theme-toast-warning-icon-color: #000000;
+  --theme-toast-warning-text-color: #202020;
+  --theme-toast-warning-icon-color: #202020;
   --theme-toast-success-background-color: #01892E;
   --theme-toast-success-text-color: #ffffff;
   --theme-toast-success-icon-color: #ffffff;
   --theme-toast-info-background-color: #0050B3;
   --theme-toast-info-text-color: #ffffff;
   --theme-toast-info-icon-color: #ffffff;
-  --theme-card-background-color: #ffffff;
+  --theme-card-background-color: #D7EFFA;
   --theme-card-background-outline: #CCCCCC;
   --box-shadow-toggle-knob: [object Object],[object Object];
   --box-shadow-card: [object Object],[object Object];
-  --border-default: [object Object];
 }

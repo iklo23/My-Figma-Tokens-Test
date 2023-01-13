@@ -3,12 +3,58 @@
     <head>
         <link rel="stylesheet" href="build/css/_variables.css">
     </head>
-<body>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
 
-<style> 
+/* The device with borders */
+.smartphone {
+  position: relative;
+  width: 360px;
+  height: 640px;
+  margin: auto;
+  border: 16px black solid;
+  border-top-width: 60px;
+  border-bottom-width: 60px;
+  border-radius: 36px;
+}
 
-    body {
-        background-color: var(--theme-bg-default);
+/* The horizontal line on the top of the device */
+.smartphone:before {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 5px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #333;
+  border-radius: 10px;
+}
+
+/* The circle on the bottom of the device */
+.smartphone:after {
+  content: '';
+  display: block;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 50%;
+  bottom: -65px;
+  transform: translate(-50%, -50%);
+  background: #333;
+  border-radius: 50%;
+}
+
+/* The screen (or content) of the device */
+.smartphone .content {
+  width: 360px;
+  height: 640px;
+  background: var(--theme-bg-primary);
+}
+
+body {
+        background-color: white;
         text-align: center;
     }
     
@@ -40,10 +86,17 @@
         margin-bottom: 24px;
     }
 
-    
+
 </style>
-<div class="nav"></div>
+</head>
+<body>
+
+<div class="smartphone">
+  <div class="content">
+    <div class="nav"></div>
 <div class="image"></div>
 <button>Button</button>
+  </div>
+</div>
+
 </body>
-</html>

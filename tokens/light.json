@@ -2,7 +2,7 @@
   "theme": {
     "bg": {
       "primary": {
-        "value": "#ffffff",
+        "value": "#D7EFFA",
         "type": "color"
       },
       "secondary": {
@@ -22,7 +22,7 @@
     },
     "fg": {
       "primary": {
-        "value": "#000000",
+        "value": "#202020",
         "type": "color"
       },
       "secondary": {
@@ -130,7 +130,7 @@
             "type": "color"
           },
           "text-color": {
-            "value": "#000000",
+            "value": "#202020",
             "type": "color"
           }
         },
@@ -144,7 +144,7 @@
             "type": "color"
           },
           "text-color": {
-            "value": "#000000",
+            "value": "#202020",
             "type": "color"
           }
         }
@@ -156,7 +156,7 @@
             "type": "color"
           },
           "text-color": {
-            "value": "#000000",
+            "value": "#202020",
             "type": "color"
           }
         },
@@ -166,7 +166,7 @@
             "type": "color"
           },
           "text-color": {
-            "value": "#000000",
+            "value": "#202020",
             "type": "color"
           }
         }
@@ -215,11 +215,11 @@
           "type": "color"
         },
         "text-color": {
-          "value": "#000000",
+          "value": "#202020",
           "type": "color"
         },
         "icon-color": {
-          "value": "#000000",
+          "value": "#202020",
           "type": "color"
         }
       },
@@ -254,7 +254,7 @@
     },
     "card": {
       "background-color": {
-        "value": "#ffffff",
+        "value": "#D7EFFA",
         "type": "color"
       },
       "background-outline": {
@@ -271,7 +271,7 @@
           "y": 3,
           "blur": 8,
           "spread": 0,
-          "color": "#00000026",
+          "color": "#20202026",
           "type": "dropShadow"
         },
         {
@@ -279,7 +279,7 @@
           "y": 3,
           "blur": 1,
           "spread": 0,
-          "color": "#0000000f",
+          "color": "#2020200f",
           "type": "dropShadow"
         }
       ],
@@ -292,7 +292,7 @@
           "y": 2,
           "blur": 12,
           "spread": 0,
-          "color": "#0000001a",
+          "color": "#2020201a",
           "type": "dropShadow"
         },
         {
@@ -300,20 +300,11 @@
           "y": 0,
           "blur": 25,
           "spread": 0,
-          "color": "#00000008",
+          "color": "#20202008",
           "type": "dropShadow"
         }
       ],
       "type": "boxShadow"
-    }
-  },
-  "border": {
-    "default": {
-      "value": {
-        "color": "#CCCCCC",
-        "width": "1px"
-      },
-      "type": "border"
     }
   }
 }

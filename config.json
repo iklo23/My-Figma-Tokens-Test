@@ -1,5 +1,5 @@
 {
-  "source": ["tokens/light.json"],
+  "source": ["tokens/dark.json"],
   "platforms": {
     "css": {
       "transformGroup": "css",
